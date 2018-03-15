@@ -1,8 +1,10 @@
 [
 	{
-		"module": "dirlister"
+		"module"	 : "dirlister",
+		"dependecies": 0
 	},
 	{
-		"module": "hashgrab"	
+		"module"	 : "hashgrab",
+		"dependecies": "secretsdump"
 	}
 ]
