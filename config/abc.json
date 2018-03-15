@@ -2,9 +2,5 @@
 	{
 		"module"	 : "dirlister",
 		"dependecies": 0
-	},
-	{
-		"module"	 : "hashgrab",
-		"dependecies": "secretsdump"
 	}
 ]
