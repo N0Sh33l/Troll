@@ -1,0 +1,24 @@
+Impacket v0.9.17-dev - Copyright 2002-2018 Core Security Technologies
+
+[*] Target system bootKey: 0xc242e8bd72b5a80c727cb1b1ab3a79ac
+[*] Dumping local SAM hashes (uid:rid:lmhash:nthash)
+Administrator:500:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
+Guest:501:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
+DefaultAccount:503:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
+WDAGUtilityAccount:504:aad3b435b51404eeaad3b435b51404ee:132e7c226dbd8049f900dc5cc7a6509b:::
+IT:1001:aad3b435b51404eeaad3b435b51404ee:d7ce7d1ff2592db1c071c3bad5b56db3:::
+Tor:1003:aad3b435b51404eeaad3b435b51404ee:cc2d7da3e01b29719153e270a143005e:::
+[*] Dumping cached domain logon information (uid:encryptedHash:longDomain:domain)
+[*] Dumping LSA Secrets
+[*] DPAPI_SYSTEM 
+ 0000   01 00 00 00 E6 BA C8 ED  67 1C E5 99 8E 79 3C B2   ........g....y<.
+ 0010   D5 A5 B8 87 5E 21 54 46  78 19 2F A8 FE FB 34 7C   ....^!TFx./...4|
+ 0020   E0 C6 50 AB 09 44 18 07  39 8C 35 5F               ..P..D..9.5_
+DPAPI_SYSTEM:01000000e6bac8ed671ce5998e793cb2d5a5b8875e21544678192fa8fefb347ce0c650ab09441807398c355f
+[*] NL$KM 
+ 0000   05 6F D2 85 08 70 93 1F  D4 AE FE 2C 52 79 DD 53   .o...p.....,Ry.S
+ 0010   F5 05 7D 17 14 AB 77 7B  F4 3D 53 F0 77 14 2D 2D   ..}...w{.=S.w.--
+ 0020   25 5A 81 49 2D A1 18 15  DC 0B 5E 55 61 6D A1 AF   %Z.I-.....^Uam..
+ 0030   68 2D 61 22 88 94 90 19  B6 70 73 A2 44 AA 6D 7E   h-a".....ps.D.m~
+NL$KM:056fd2850870931fd4aefe2c5279dd53f5057d1714ab777bf43d53f077142d2d255a81492da11815dc0b5e55616da1af682d612288949019b67073a244aa6d7e
+[*] Cleaning up... 
