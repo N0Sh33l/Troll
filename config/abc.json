@@ -1,10 +1,12 @@
 [
 	{
 		"module"	 : "dirlister",
-		"dependecies": 0
+		"dependecies"	 : 0,
+		"times"		 : 40
 	},
 	{
 		"module"	 : "hashgrab",
-		"dependecies": "secretsdump"
+		"dependecies"	 : "secretsdump",
+		"times"		 : 1
 	}
 ]
